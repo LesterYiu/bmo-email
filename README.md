@@ -15,6 +15,7 @@ This repository consists of two basic BMO e-mail templates designed and created 
 - CSS
 - Photoshop
 - Figma
+- Litmus (PutsMail)
 
 ## Document Type
 
