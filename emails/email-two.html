@@ -8,6 +8,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>BMO Email Template</title>
         <style type="text/css">
+
+            /* Overall Styles */
             body {
                 margin: 0;
                 background-color: rgb(226, 222, 222);
@@ -47,6 +49,31 @@
                 text-align: center;
             }
 
+            .column {
+                background-color: #ffffff;
+                padding: 40px 50px 40px 35px;
+            }
+    
+            .emphasize {
+                font-weight: bold;
+            }
+
+            /* Heading Images */
+
+            .heading-one {
+                max-width: 90%;
+            }
+
+            .heading-two {
+                max-width: 60%;
+            }
+
+            .heading-three {
+                max-width: 65%;
+            }
+
+            /* Logo Section */
+
             .logo-section {
                 background-color: #0178C4;
             }
@@ -57,10 +84,7 @@
                 font-size: 14px;
             }
 
-            .column {
-                background-color: #ffffff;
-                padding: 40px 50px 40px 35px;
-            }
+            /* Instructions Section */
 
             .column-step {
                 margin: 30px 0 0 0;
@@ -75,13 +99,11 @@
                 margin: 5px 2% 0 0;
             }
 
-            .emphasize {
-                font-weight: bold;
-            }
-
             .instructions {
                 display: inline-block;
             }
+
+            /* Cards Section */
 
             .card {
                 width: 47.5%;
@@ -115,11 +137,31 @@
                 margin: 0 0 25px 0;
             }
 
+            /* Legal Section */
+
             .legal-section {
                 color: #353a3b;
             }
 
+            /* Media Queries */
+
             @media only screen and (max-width: 510px) {
+
+                /* Headings */
+
+                .heading-one {
+                    max-width: 100%;
+                }
+
+                .heading-two {
+                    max-width: 70%;
+                }
+
+                .heading-three {
+                    max-width: 85%;
+                }
+
+                /* Instructions Section */
                 .column-step {
                     text-align: center;
                 }
@@ -134,11 +176,15 @@
                     margin: 0 auto 15px;
                 }
 
+                /* Account Section */
+
                 .account-section .circle-image {
                     max-width: 15%;
                     display: block;
                     margin: 15px auto 15px;
                 }
+
+                /* Card Section */
 
                 .card {
                     width: 100%;
@@ -194,7 +240,7 @@
                         <table width="100%" class="column text-section;">
                             <tr>
                                 <td>
-                                    <img src="https://i.ibb.co/k0H8dQ7/heading.png" alt="" style="max-width: 90%;">
+                                    <img src="https://i.ibb.co/k0H8dQ7/heading.png" alt="" class="heading-one">
                                     <p>With BMO Digital Banking, it's easy to do your banking online, anywhere, anytime. Despite how much life has changed
                                     recently, you can still safely manage 11 and easily manage your banking online or on your mobile 22. All you need to do is sign up for BMO Digital Banking to get started.</p>
                                     <a href="#">Access your account</a>
@@ -225,10 +271,10 @@
                         <table class="column">
                             <tr>
                                 <td>
-                                    <table>
+                                    <table width="100%">
                                         <tr>
                                             <td>
-                                                <img src="https://i.ibb.co/pZXWGT0/heading-two.png" alt="" style="max-width: 60%;">
+                                                <img src="https://i.ibb.co/pZXWGT0/heading-two.png" alt="" class="heading-two">
                                             </td>
                                         </tr>
                                     </table>
@@ -281,7 +327,7 @@
                         <table class="column account-section" width="100%">
                             <tr>
                                 <td>
-                                    <img src="https://i.ibb.co/bW2kd3T/heading-three.png" alt="" style="max-width: 65%; margin: 0 0 30px 0;">
+                                    <img src="https://i.ibb.co/bW2kd3T/heading-three.png" alt="" style="margin: 0 0 30px 0;" class="heading-three">
                                     <table width="100%">
                                         <tr>
                                             <td>
